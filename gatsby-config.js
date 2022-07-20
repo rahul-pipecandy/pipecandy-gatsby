@@ -70,13 +70,13 @@ module.exports = {
   plugins: [
     'gatsby-transformer-remark',  
     'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `projects`,
-        path: `${__dirname}/src/markdowns/`,
-        // path: `https://github.com/ammarjabakji/gatsby-markdown-blog-starter/tree/master/content/`
-      },
-    }
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `projects`,
+    //     path: `${__dirname}/src/markdowns/`,
+    //     // path: `https://github.com/ammarjabakji/gatsby-markdown-blog-starter/tree/master/content/`
+    //   },
+    // }
   ],
 }
